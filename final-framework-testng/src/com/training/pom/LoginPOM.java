@@ -1,5 +1,6 @@
 package com.training.pom;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,14 +14,18 @@ public class LoginPOM {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(id="email")
+	@FindBy(id="user_login")
 	private WebElement userName; 
 	
-	@FindBy(id="pass")
+	@FindBy(id="user_pass")
 	private WebElement password;
 	
-	@FindBy(id="send2")
+	@FindBy(name="login")
 	private WebElement loginBtn; 
+
+	@FindBy(linkText="Real Estate")
+	private WebElement user_page; 
+
 	
 	public void sendUserName(String userName) {
 		this.userName.clear();
@@ -34,5 +39,9 @@ public class LoginPOM {
 	
 	public void clickLoginBtn() {
 		this.loginBtn.click(); 
-	}
+	}	
+	public void moveToUserPage() {
+		this.user_page.click(); 
+	}	
+
 }
