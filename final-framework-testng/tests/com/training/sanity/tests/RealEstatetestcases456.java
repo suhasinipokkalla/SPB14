@@ -14,7 +14,6 @@ import com.training.generics.ScreenShot;
 import com.training.pom.Changepassword;
 import com.training.pom.HomePOM;
 import com.training.pom.LoginPOM;
-import com.training.pom.UpdateProfilePage;
 import com.training.pom.UpdateUserProfileDetails;
 import com.training.pom.Userlogout;
 import com.training.utility.DriverFactory;
