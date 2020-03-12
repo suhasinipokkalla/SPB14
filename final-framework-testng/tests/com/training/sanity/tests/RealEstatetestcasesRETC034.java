@@ -18,7 +18,7 @@ import com.training.pom.Searchforproperty;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
-public class RealEstatetestcasesRETC_034 {
+public class RealEstatetestcasesRETC034 {
 
 	private static WebDriver driver;
 	private static String baseUrl;
@@ -48,7 +48,7 @@ public class RealEstatetestcasesRETC_034 {
 	@AfterClass
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
-	   // driver.quit();
+	    driver.quit();
 	}
 	
 	@Test

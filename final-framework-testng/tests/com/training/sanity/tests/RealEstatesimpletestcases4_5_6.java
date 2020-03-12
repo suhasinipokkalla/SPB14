@@ -6,6 +6,7 @@ import java.util.Properties;
 import java.util.Scanner;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -19,7 +20,7 @@ import com.training.pom.Userlogout;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
-public class RealEstatetestcases456 {
+public class RealEstatesimpletestcases4_5_6 {
 
 	private static WebDriver driver;
 	private static String baseUrl;
@@ -52,7 +53,7 @@ public class RealEstatetestcases456 {
 		
 	}
 	
-	@AfterMethod
+	@AfterClass
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
 	    driver.quit();
