@@ -48,7 +48,7 @@ public class RealEstatetestcasesRETC_034 {
 	@AfterClass
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
-	    driver.quit();
+	   // driver.quit();
 	}
 	
 	@Test

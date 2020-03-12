@@ -55,8 +55,8 @@ public class Searchforproperty {
   				driver.findElement(By.cssSelector(".wpcf7-submit")).click();
   				Thread.sleep(2000);
   				driver.findElement(By.className("wpcf7-response-output")).click();
-  				Thread.sleep(1000);
-  			Reporter.log(driver.findElement(By.className("wpcf7-response-output")).getAttribute("value"));
+  				Thread.sleep(2000);
+  				Reporter.log(driver.findElement(By.className("wpcf7-mail-sent-ng")).getText());
   			}	
 		
 		}
