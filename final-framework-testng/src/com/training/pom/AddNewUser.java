@@ -18,13 +18,13 @@ public class AddNewUser {
 	public void addDetails() throws InterruptedException {
 		Thread.sleep(1000);	
 		driver.findElement(By.id("user_login")).clear();
-		driver.findElement(By.id("user_login")).sendKeys("suha5");
+		driver.findElement(By.id("user_login")).sendKeys("suha6");
 		driver.findElement(By.id("email")).clear();
-		driver.findElement(By.id("email")).sendKeys("suhasini5@gmail.com");
+		driver.findElement(By.id("email")).sendKeys("suhasini6@gmail.com");
 				driver.findElement(By.id("first_name")).clear();
-   				driver.findElement(By.id("first_name")).sendKeys("suha5");
+   				driver.findElement(By.id("first_name")).sendKeys("suha6");
   				driver.findElement(By.id("last_name")).clear();
-  				driver.findElement(By.id("last_name")).sendKeys("suha5");
+  				driver.findElement(By.id("last_name")).sendKeys("suha6");
   				driver.findElement(By.id("url")).clear();
   				driver.findElement(By.id("url")).sendKeys("www.google.com");
   				Thread.sleep(1000);
@@ -34,7 +34,6 @@ public class AddNewUser {
   				Thread.sleep(5000);
   				driver.findElement(By.id("pass1-text")).sendKeys("suhasini@12345");
   				driver.findElement(By.className("pw-checkbox")).click();
-  				driver.findElement(By.id("send_user_notification")).click();
   				Thread.sleep(1000);
   				Select drpdwn=new Select(driver.findElement(By.id("role")));
   		        drpdwn.selectByVisibleText("Agent");

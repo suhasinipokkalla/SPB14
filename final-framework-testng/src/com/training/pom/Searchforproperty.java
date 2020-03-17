@@ -18,8 +18,6 @@ public class Searchforproperty {
 		PageFactory.initElements(driver, this);
 	}
 	public void searchforprop() throws InterruptedException {
-		Thread.sleep(2000);	
-		driver.findElement(By.linkText("COMMERCIAL")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("keyword_search")).sendKeys("Nullam hendrerit Apartments");
 		Thread.sleep(2000);		
@@ -53,7 +51,7 @@ public class Searchforproperty {
   				driver.findElement(By.name("your-message")).sendKeys("looking for apartment");
   				Thread.sleep(1000);
   				driver.findElement(By.cssSelector(".wpcf7-submit")).click();
-  				Thread.sleep(2000);
+  				Thread.sleep(5000);
   				driver.findElement(By.className("wpcf7-response-output")).click();
   				Thread.sleep(2000);
   				Reporter.log(driver.findElement(By.className("wpcf7-mail-sent-ng")).getText());

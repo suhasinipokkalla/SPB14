@@ -34,15 +34,17 @@ public class ApachePOIExcelRead {
 			XSSFSheet sheet = workbook.getSheetAt(0);
 			
 			int rowTotal = sheet.getLastRowNum();
+			
 
 			if ((rowTotal > 0) || (sheet.getPhysicalNumberOfRows() > 0)) {
 			    rowTotal++;
 			}
-			
+			//System.out.println("rowTotal"+rowTotal);
 			
 			// Iterate through each rows one by one
 			Iterator<Row> rowIterator = sheet.iterator();
-			 list1 = new String[rowTotal][2];
+			 
+			 list1 = new String[rowTotal][4];
 			 
 			while (rowIterator.hasNext()) {
 				Row row = rowIterator.next();
