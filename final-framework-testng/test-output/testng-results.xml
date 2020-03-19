@@ -1,55 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
-    <line>
-      <![CDATA[There was an error trying to send your message. Please try again later.]]>
-    </line>
-    <line>
-      <![CDATA[There was an error trying to send your message. Please try again later.]]>
-    </line>
-    <line>
-      <![CDATA[There was an error trying to send your message. Please try again later.]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105563" started-at="2020-03-17T09:51:44Z" finished-at="2020-03-17T09:53:30Z">
+  <suite name="Default suite" duration-ms="140658" started-at="2020-03-19T11:17:13Z" finished-at="2020-03-19T11:19:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="105563" started-at="2020-03-17T09:51:44Z" finished-at="2020-03-17T09:53:30Z">
-      <class name="com.training.sanity.tests.RealEstateComplextestcasesRETC064">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC064@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="66672" started-at="2020-03-17T15:21:44Z" finished-at="2020-03-17T15:22:51Z">
+    <test name="Default test" duration-ms="140658" started-at="2020-03-19T11:17:13Z" finished-at="2020-03-19T11:19:34Z">
+      <class name="com.training.sanity.tests.RealEstateComplextestcasesRETC66">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC66@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="91943" started-at="2020-03-19T16:47:13Z" finished-at="2020-03-19T16:48:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validEnquirpropertyORadduser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC064@5c7fa833]" name="validEnquirpropertyORadduser" duration-ms="16564" started-at="2020-03-17T15:22:52Z" data-provider="excel-inputs" finished-at="2020-03-17T15:23:08Z">
+        <test-method status="PASS" signature="validEnquirproperty(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC66@39aeed2f]" name="validEnquirproperty" duration-ms="23803" started-at="2020-03-19T16:48:45Z" data-provider="userData" finished-at="2020-03-19T16:49:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[manzoor mehadi]]>
+                <![CDATA[ ]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[manzoor@gmail.com]]>
+                <![CDATA[ ]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[apartments]]>
+                <![CDATA[ ]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[looking for apartments]]>
+                <![CDATA[ ]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[There was an error trying to send your message. Please try again later.]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- validEnquirpropertyORadduser -->
-        <test-method status="PASS" signature="validEnquirpropertyORadduser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC064@5c7fa833]" name="validEnquirpropertyORadduser" duration-ms="10281" started-at="2020-03-17T15:23:08Z" data-provider="excel-inputs" finished-at="2020-03-17T15:23:18Z">
+        </test-method> <!-- validEnquirproperty -->
+        <test-method status="PASS" signature="validEnquirproperty(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC66@39aeed2f]" name="validEnquirproperty" duration-ms="12197" started-at="2020-03-19T16:49:09Z" data-provider="userData" finished-at="2020-03-19T16:49:21Z">
           <params>
             <param index="0">
               <value>
@@ -58,27 +46,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[alex@gmail.com]]>
+                <![CDATA[ ]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Plots]]>
+                <![CDATA[ ]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[looking for plots]]>
+                <![CDATA[ ]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[There was an error trying to send your message. Please try again later.]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- validEnquirpropertyORadduser -->
-        <test-method status="PASS" signature="validEnquirpropertyORadduser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC064@5c7fa833]" name="validEnquirpropertyORadduser" duration-ms="9021" started-at="2020-03-17T15:23:18Z" data-provider="excel-inputs" finished-at="2020-03-17T15:23:27Z">
+        </test-method> <!-- validEnquirproperty -->
+        <test-method status="PASS" signature="validEnquirproperty(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC66@39aeed2f]" name="validEnquirproperty" duration-ms="11260" started-at="2020-03-19T16:49:21Z" data-provider="userData" finished-at="2020-03-19T16:49:32Z">
           <params>
             <param index="0">
               <value>
@@ -87,31 +72,28 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[mariya@gmail.com]]>
+                <![CDATA[mariyas]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Vilas]]>
+                <![CDATA[ ]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[looking for Villas]]>
+                <![CDATA[ ]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[There was an error trying to send your message. Please try again later.]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- validEnquirpropertyORadduser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC064@5c7fa833]" name="tearDown" is-config="true" duration-ms="2095" started-at="2020-03-17T15:23:27Z" finished-at="2020-03-17T15:23:30Z">
+        </test-method> <!-- validEnquirproperty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RealEstateComplextestcasesRETC66@39aeed2f]" name="tearDown" is-config="true" duration-ms="1416" started-at="2020-03-19T16:49:32Z" finished-at="2020-03-19T16:49:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RealEstateComplextestcasesRETC064 -->
+      </class> <!-- com.training.sanity.tests.RealEstateComplextestcasesRETC66 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

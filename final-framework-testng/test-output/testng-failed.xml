@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.RealEstateComplextestcasesRETC064">
+      <class name="com.training.sanity.tests.RealEstateComplextestcasesRETC66">
         <methods>
-          <include name="setUpBeforeClass"/>
-          <include name="validEnquirpropertyORadduser" invocation-numbers="3"/>
           <include name="tearDown"/>
+          <include name="setUpBeforeClass"/>
+          <include name="validEnquirproperty" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.RealEstateComplextestcasesRETC064 -->
+      </class> <!-- com.training.sanity.tests.RealEstateComplextestcasesRETC66 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

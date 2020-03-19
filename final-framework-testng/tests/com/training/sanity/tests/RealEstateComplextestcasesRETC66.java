@@ -26,7 +26,7 @@ import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
 
-public class RealEstateComplextestcasesRETC064 {
+public class RealEstateComplextestcasesRETC66 {
 
 	private static WebDriver driver;
 	private static String baseUrl;
@@ -61,13 +61,21 @@ public class RealEstateComplextestcasesRETC064 {
 		loginPOM.moveToUserPage();
 	}
 	
-
 	@AfterClass
 	public void tearDown() throws Exception {
 		   driver.quit();
 	}
 	
-	@Test(dataProvider = "excel-inputs", dataProviderClass = LoginDataProviders.class)
+	@DataProvider (name="userData")
+	public Object[][] getData() {
+		return new Object[][] {
+			{" "," "," "," "},
+			{"alex hales"," "," "," "},
+			{"mariya", "mariyas"," "," "}
+		};
+	}
+	
+	@Test(dataProvider="userData")
 	public void validEnquirproperty(String username,String mail,String subject,String message)  throws FileNotFoundException, IOException, InterruptedException{
 						//Send Different users enquirie's 
 				driver.findElement(By.linkText("PLOTS")).click();
@@ -77,7 +85,7 @@ public class RealEstateComplextestcasesRETC064 {
 				        enquireproperty.sendEnquiryMessage(EnterUserData.mail_ip,mail);
 				        enquireproperty.sendEnquiryMessage(EnterUserData.subject_ip,subject);
 				         enquireproperty.sendEnquiryMessage(EnterUserData.message_ip,message);
-				        enquireproperty.clickbt(EnterUserData.send_btn);
+				        enquireproperty.clickbt2(EnterUserData.send_btn);
 				        screenShot.captureScreenShot();		
 	
 	}

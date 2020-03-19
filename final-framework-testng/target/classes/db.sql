@@ -1,7 +1,10 @@
-create table login(
-username varchar(50) not null,
-password varchar(50));
+create table UserData(
+username varchar(50),
+mail varchar(50),
+subject varchar(50),
+message varchar(50));
 
 
-insert into login values("admin", "admin@123"); 
-insert into login values("naveen", "testing@123"); 
+insert into UserData values("","","",""); 
+insert into UserData values("alex hales","","","");
+insert into UserData values("mariya","mariyas","",""); 
